@@ -1,0 +1,17 @@
+{
+  "name": "practice-fastify-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/app.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.3.1",
+    "fastify": "^4.6.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-zod": "^1.2.0",
+    "zod": "^3.19.1",
+    "zod-to-json-schema": "^3.17.1"
+  }
+}
