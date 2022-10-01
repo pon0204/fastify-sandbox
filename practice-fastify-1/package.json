@@ -4,13 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node src/app.ts"
+    "dev": "nodemon src/app.ts"
   },
   "dependencies": {
+    "@fastify/cors": "^8.1.0",
+    "@fastify/helmet": "^10.0.0",
     "@prisma/client": "^4.3.1",
+    "@sinclair/typebox": "^0.24.43",
     "fastify": "^4.6.0",
     "fastify-jwt": "^4.2.0",
+    "fastify-plugin": "^4.2.1",
     "fastify-zod": "^1.2.0",
+    "nodemon": "^2.0.20",
+    "pino-pretty": "^9.1.0",
     "zod": "^3.19.1",
     "zod-to-json-schema": "^3.17.1"
   }
